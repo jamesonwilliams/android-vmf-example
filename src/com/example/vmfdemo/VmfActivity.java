@@ -20,7 +20,7 @@ import android.widget.TextView;
 import android.os.Bundle;
 
 
-public class HelloJni extends Activity
+public class VmfActivity extends Activity
 {
     /** Called when the activity is first created. */
     @Override
