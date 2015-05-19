@@ -23,13 +23,13 @@
 extern "C" {
 #endif
 jstring
-Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env, jobject thiz );
+Java_com_example_vmfdemo_VmfActivity_stringFromJNI( JNIEnv* env, jobject thiz );
 #ifdef __cplusplus
 }
 #endif
 
 jstring
-Java_com_example_hellojni_HelloJni_stringFromJNI( JNIEnv* env, jobject thiz )
+Java_com_example_vmfdemo_VmfActivity_stringFromJNI( JNIEnv* env, jobject thiz )
 {
     std::string message("Test Android message");
     vmf::initialize();

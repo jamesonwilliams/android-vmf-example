@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.hellojni;
+package com.example.vmfdemo;
 
 import android.app.Activity;
 import android.widget.TextView;
@@ -63,6 +63,6 @@ public class VmfActivity extends Activity
     static {
         System.loadLibrary("gnustl_shared");
         System.loadLibrary("vmf");
-        System.loadLibrary("hello-jni");
+        System.loadLibrary("vmfdemo");
     }
 }
